@@ -145,7 +145,7 @@ contract West81 is StandardBurnableToken {
     string public symbol = "W81";
     uint8 public decimals = 18;
     constructor() public{
-        totalSupply_ = uint256(1000000000).mul(uint256(10)**18);
+        totalSupply_ = uint256(100000000).mul(uint256(10)**18);
         balances[msg.sender] = totalSupply_;
         emit Transfer(address(0), msg.sender, totalSupply_);
     }
