@@ -141,7 +141,7 @@ contract StandardBurnableToken is BurnableToken, StandardToken {
     }
 }
 contract West81 is StandardBurnableToken {
-    string public name = "West 81";
+    string public name = "WEST 81";
     string public symbol = "W81";
     uint8 public decimals = 18;
     constructor() public{
