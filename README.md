@@ -1,6 +1,6 @@
 # WEST81
 
-more info in  [west81.io](https://www.west81.io).
+more info in  [cryptowest.io](https://cryptowest.io).
 
 ## Install Dependencies
 

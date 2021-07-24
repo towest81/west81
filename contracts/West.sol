@@ -140,9 +140,9 @@ contract StandardBurnableToken is BurnableToken, StandardToken {
         _burn(_from, _value);
     }
 }
-contract West81 is StandardBurnableToken {
-    string public name = "WEST 81";
-    string public symbol = "W81";
+contract West is StandardBurnableToken {
+    string public name = "CRYPTO WEST";
+    string public symbol = "WEST";
     uint8 public decimals = 18;
     constructor() public{
         totalSupply_ = uint256(100000000).mul(uint256(10)**18);
